@@ -13,7 +13,7 @@ from postElaboration import postElaborationRegression
 
 warnings.filterwarnings("ignore")
 
-path_feature_vector = "C:\\Users\\luca-\\OneDrive\\Data\\Uni\\Tirocinio\\Datasets\\emozioni"
+path_feature_vector = "path feature vectors"
 name_file = "results-all-subjects-reg2.txt"
 
 #letture dei file contenenti i feature vector
