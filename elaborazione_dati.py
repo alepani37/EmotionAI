@@ -8,21 +8,7 @@ import numpy as np
 
 dir_path = "C:\\Users\\aless\OneDrive - Università di Cagliari\\ML\\dataset tesi\\dataset_ruota\\dataset_elaborati_ruota_standard"
 df = pd.DataFrame()
-'''
-#unisco i dataset
-count = 0
-for path in os.scandir(dir_path):
-    if count == 0:
-        df_prec = pd.read_csv(path)
-    else:
-        this = pd.read_csv(path)
-        df = pd.concat([df_prec,this],ignore_index=True)
-        df_prec = df
-    count += 1
 
-df.to_csv("C:\\Users\\aless\\Desktop\\dataset tesi\\S3.csv",index = False)
-
-'''
 
 count = 1
 
