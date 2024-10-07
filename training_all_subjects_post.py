@@ -15,7 +15,7 @@ from postElaboration import postElaboration
 
 warnings.filterwarnings("ignore")
 
-path_feature_vector = "C:\\Users\\luca-\\OneDrive\\Data\\Uni\\Tirocinio\\Datasets\\emozioni"
+path_feature_vector = "path feature vector"
 name_file = "results-all-subjects-post-multi18.txt"
 
 #letture dei file contenenti i feature vector
