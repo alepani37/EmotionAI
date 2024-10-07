@@ -15,7 +15,7 @@ from postElaboration import postElaboration
 import pickle
 
 FOLDS = 5
-path_feature_vector = "C:\\Users\\aless\\OneDrive - Università di Cagliari\\ML\\feature vector\\fv_05s_no_standard"
+path_feature_vector = "path feature vectors"
 name_file = "results-one-subject-post.txt"
 
 
